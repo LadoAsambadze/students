@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #0d192c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: #15263f;
+  width: 350px;
+  height: 596px;
+  border-radius: 15px;
+}
+
+.nftImage {
+  width: 302px;
+  height: 302px;
+  margin: 24px;
+}
+
+h1 {
+  color: white;
+  font-size: 22px;
+  font-weight: 600;
+  font-family: "Outfit";
+  margin-left: 24px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+p {
+  color: #8bacd9;
+  font-size: 18px;
+  font-weight: 300;
+  font-family: "Outfit";
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-top: 16px;
+  margin-bottom: 0;
+}
+
+.iconsSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 24px;
+}
+
+.leftText {
+  color: #00fff8;
+  font-size: 16px;
+}
+
+.rightText {
+  color: #8bacd9;
+  font-size: 16px;
+}
+
+.leftDiv {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.rightDiv {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.line {
+  height: 1px;
+  background-color: #2e405a;
+  margin-left: 24px;
+  margin-right: 24px;
+}
