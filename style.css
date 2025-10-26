@@ -80,3 +80,20 @@ p {
   margin-left: 24px;
   margin-right: 24px;
 }
+
+.text1 {
+  color: #8bacd9;
+  margin-left: 16px;
+}
+
+.text2 {
+  color: #00fff8;
+  margin-left: 5px;
+}
+
+.lastDiv {
+  margin-left: 24px;
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+}
